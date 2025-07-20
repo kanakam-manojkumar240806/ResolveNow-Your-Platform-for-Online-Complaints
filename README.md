@@ -33,14 +33,16 @@ ResolveNow is a user-centric online platform designed to simplify the process of
 
 2. Setup backend:
    ```bash
-   cd server
+   cd backend
    npm install
+   npm start
    ```
 
 3. Setup frontend:
    ```bash
-   cd../client
+   cd frontend
    npm install
+   npm start
    ```
 
 ## 🧪 Testing
