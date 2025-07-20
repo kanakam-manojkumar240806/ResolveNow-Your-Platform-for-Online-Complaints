@@ -1,77 +1,68 @@
 # ResolveNow-Your-Platform-for-Online-Complaints
 
-
-A simple and efficient doctor appointment booking system that allows users to book, manage, and track doctor visits easily. This app aims to streamline the process for both patients and healthcare providers.
+ResolveNow is a user-centric online platform designed to simplify the process of filing, tracking, and resolving complaints against services, products, or authorities. It empowers citizens and customers to raise issues seamlessly through a digital interface while ensuring transparency, accountability, and timely responses from responsible departments or organizations.
 
 ## 🚀 Features
 
-- 👨‍⚕️ Doctor & Patient Login
-- 📅 Book, Reschedule, and Cancel Appointments
-- 🔍 Search Doctors by Specialization & Location
-- 🕒 Real-Time Slot Availability
-- 📬 Email Notifications for Booking Confirmation
-- 📜 Medical History Record Tracking
-- 📱 Responsive UI (Mobile + Web Friendly)
+- 👤 User & Admin Login
+- 📝 Submit Complaints Instantly
+- 🔍 Search Complaints by ID, Category, or Status
+- 📊 Real-Time Complaint Status Tracking
+- 🗂️ Complaint History Archive
+- 📬 Email/SMS Notifications for Updates
+- 🗺️ Location-Based Complaint Assignment
+- 💬 Two-Way Messaging System
+- 🧑‍💼 Admin Dashboard & Analytics
+- 🌐 Responsive UI (Mobile + Web Friendly)
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: HTML, CSS, JavaScript / React (edit based on your stack)
-- **Backend**: Node.js / Django / Flask (edit based on your stack)
-- **Database**: MongoDB / MySQL / PostgreSQL (edit as applicable)
-- **Authentication**: JWT / Firebase / OAuth
-- **Deployment**: Vercel / Netlify / Heroku / Render
-
-## 📸 Screenshots
-
-| Home | Doctor Search | Booking |
-|------|---------------|---------|
-| ![Home](screenshots/home.png) | ![Search](screenshots/search.png) | ![Booking](screenshots/booking.png) |
+- **Frontend**: HTML, CSS, JavaScript, React
+- **Backend**: Node.js with Express.js
+- **Database**: MongoDB with Mongoose
+- **Authentication**: JWT (JSON Web Token) for secure login and role-based access
+- **Deployment**: Vercel (for frontend) & Render (for backend API and MongoDB connection)
 
 ## ⚙️ Installation & Setup
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/doctor-appointment-app.git
-   cd doctor-appointment-app
+   git clone https://github.com/your-username/ResolveNow-Your-Platform-for-Online-Complaints.git
+   cd ResolveNow-Your-Platform-for-Online-Complaints
    ```
 
-2. Install dependencies:
+2. Setup backend:
    ```bash
+   cd server
    npm install
    ```
 
-3. Set up environment variables:
-   Create a `.env` file and add your configuration:
-   ```env
-   DB_URI=your_database_uri
-   JWT_SECRET=your_secret
-   ```
-
-4. Start the development server:
+3. Setup frontend:
    ```bash
-   npm start
+   cd../client
+   npm install
    ```
 
 ## 🧪 Testing
 
-Run tests using:
-```bash
-npm test
-```
+- http://localhost:3000
+- http://localhost:5000
 
 ## 📌 Future Enhancements
 
-- 👨‍⚕️ Doctor Profile Management
-- 💬 In-App Chat with Doctor
-- 📆 Calendar Sync (Google/Outlook)
-- 💳 Payment Gateway Integration
+- 📸 Photo Evidence Auto-Detection
 - 🗣️ Multi-Language Support
+- 💬 In-App Chat with Assigned Officer
+- 📈 Advanced Analytics Dashboard
+- 🧾 Downloadable Complaint Receipts (PDF)
+- 🛠️ Integration with Government or Organization Portals
 
 ## 🐞 Known Issues
 
-- No calendar sync yet.
-- No push notification support (mobile).
-- UI glitches on very small screen sizes.
+- 🌐 No Multi-Language Support Yet
+- 📶 No Offline Support
+- 🔔 Delayed Notification Handling
+- 🔄 No Real-Time Chat Yet
 
 ## 🤝 Contributing
 
@@ -82,7 +73,7 @@ Please fork the repository and submit a pull request.
 
 This project is licensed under the MIT License.
 
-🔗 Drive : https://drive.google.com/drive/folders/1MYep_YPRgkR4mtSfFpegMC1oMdw7yGNP
+🔗 Drive : 
 
-🌐 Live Demo : https://youtu.be/uNFZ47NE328?si=4X10zMkXyf8rciJx
+🌐 Live Demo : 
  
